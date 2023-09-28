@@ -15,6 +15,8 @@ function contarCaracteres() { //Nombramos la funcion
     return contador; //Retornamos el contador
 }
 
+contarCaracteres(); // Llamamos a la función
+
 
 /*Ejercicio 2:
 Diseña un algoritmo que imprima los números impares entre un número dado por el usuario y los siguientes 50 números*/
