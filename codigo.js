@@ -15,14 +15,11 @@ function contarCaracteres() { //Nombramos la funcion
     return contador; //Retornamos el contador
 }
 
-contarCaracteres(); // Llamamos a la función
-
 
 /*Ejercicio 2:
 Diseña un algoritmo que imprima los números impares entre un número dado por el usuario y los siguientes 50 números*/
 
 function contarImpares(numero) { //Nombramos la funcion
-    const pedirNumero = parseInt(prompt("Ingresa un número:")); //Pedimos un número y que lo pase a entero
 
     let contador = 0;   //Inicializamos el contador
     while (contador < 50) { //Recorremos el número
@@ -34,4 +31,7 @@ function contarImpares(numero) { //Nombramos la funcion
     }
 }
 
-contarImpares(numeroUsuario); // Llamamos a la función
+const pedirNumero = parseInt(prompt("Ingresa un número:")); //Pedimos un número y que lo pase a entero
+
+contarImpares(pedirNumero); // Llamamos a la función
+
